@@ -41,6 +41,6 @@ Note that:
    + [0, 0, 1, 1, 1, 1] indicates a baselink whose x axis and y axis could be manipulated.
    + [0, 0, 0, 0, 0, 0] indicates a floating (6 DoF) baselink
 + ik_cost_coeff define the cost coefficient of actuating a robot joint
-    +The number of coefficients must be greater than, or equal to, the number of joints of the robot, and less than, or equal to, the number of joints in VKC. The number of joints in VKC includes robot joints and manipulated object joints.
+   +The number of coefficients must be greater than, or equal to, the number of joints of the robot, and less than, or equal to, the number of joints in VKC. The number of joints in VKC includes robot joints and manipulated object joints.
 
 1111
